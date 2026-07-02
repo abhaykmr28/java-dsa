@@ -1,4 +1,4 @@
-public class Q01_sumOfArray{
+public class Q01_SumOfArray{
     public static void main(String[] args) {
 
         // Q-> sum of array
