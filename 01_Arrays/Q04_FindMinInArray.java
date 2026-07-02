@@ -1,4 +1,4 @@
-public class Q4_FindMinInArray {
+public class Q04_FindMinInArray {
      public static void main(String[] args) {
         
         int arr[]= {1,2,3,8,9,33,-1,22,33,-3};

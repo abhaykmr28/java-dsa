@@ -1,4 +1,4 @@
-public class Q05_AvgOfArray {
+public class Q06_AvgOfArray {
      static double getAvg(int arr[]){
         double sum=0;
         for(int val : arr){

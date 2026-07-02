@@ -1,4 +1,4 @@
-public class Q04_SumOf2DArray {
+public class Q05_SumOf2DArray {
      public static void main(String[] args) {
 
         // sum of 2d array
