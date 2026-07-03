@@ -1,4 +1,4 @@
-public class Q7_MultiplyArrayBy10 {
+public class Q07_MultiplyArrayBy10 {
     // multiply arry by 10 
  
     static int[] multiplyBy10(int arr[]){
