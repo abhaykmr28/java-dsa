@@ -7,7 +7,7 @@ public class Q39_SecondLargest {
             return -1; // Array should have at least 2 elements
         }
 
-        int largest = Integer.MIN_VALUE;
+        int largest = arr[0];
         int secondLargest = Integer.MIN_VALUE;
 
         for (int i = 0; i < arr.length; i++) {
