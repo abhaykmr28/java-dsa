@@ -4,7 +4,7 @@ public class Q3_UpperBound {
         int s=0;
         int n=arr.length;
         int e=n-1;
-        int ans=-1;
+        int ans=n;
         while (s<=e) {
             int mid=s+(e-s)/2;
 
