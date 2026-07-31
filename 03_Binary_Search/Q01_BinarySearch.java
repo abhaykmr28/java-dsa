@@ -4,9 +4,10 @@ public class Q01_BinarySearch {
         int start = 0;
         int end = arr.length - 1;
 
-        int mid = start + (end - start) / 2;
-
+       
         while (start <= end) {
+             int mid = start + (end - start) / 2;
+
 
             // Target found
             if (arr[mid] == target) {
@@ -24,7 +25,7 @@ public class Q01_BinarySearch {
             }
 
             // Update mid
-            mid = start + (end - start) / 2;
+           
         }
 
         return -1;
