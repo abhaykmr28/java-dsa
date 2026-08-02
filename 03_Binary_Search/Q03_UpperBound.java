@@ -1,4 +1,4 @@
-public class Q3_UpperBound {
+public class Q03_UpperBound {
 
     static int GetUpperBound(int arr[],int target){
         int s=0;

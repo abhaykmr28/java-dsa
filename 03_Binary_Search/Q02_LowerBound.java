@@ -1,4 +1,4 @@
-public class Q2_LowerBound {
+public class Q02_LowerBound {
 
 static int GetLowerBound(int arr[],int target){
     int n=arr.length;

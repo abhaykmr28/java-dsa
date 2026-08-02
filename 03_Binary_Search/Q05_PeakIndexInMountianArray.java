@@ -1,4 +1,4 @@
-public class Q5_PeakIndexInMountianArray {
+public class Q05_PeakIndexInMountianArray {
 
     
 
