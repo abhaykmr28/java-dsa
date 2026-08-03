@@ -1,18 +1,22 @@
 public class Q08_SqrRootUsingBinarySearch {
     
 static int Sqrt(int x){
-    int s=0; // start 0 pe hai 
+    int s=1; // start 0 pe hai 
     int e=x;  // end x matlabhi usi gvien no. pe hai
     int ans=-1;
+
+    if(x==0){
+        return 0;
+    }
 
     while (s<e) {
         int mid=s+(e-s)/2;
 
-        if(mid*mid==x){
+        if(mid==x/mid){
             return mid;
         }
 
-        else if(mid*mid>x){
+        else if(mid>x/mid){
             // ignore and move left
             e=mid-1;
 
