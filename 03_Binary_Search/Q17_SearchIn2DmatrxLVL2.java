@@ -3,7 +3,8 @@ public class Q17_SearchIn2DmatrxLVL2 {
         int totalrow=matrix.length;
         int totalcol=matrix[0].length;
 
-
+        // for staring me kha par hai
+        
         int row=0;
         int col=totalcol-1;
 
