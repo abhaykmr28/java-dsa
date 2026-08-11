@@ -2,38 +2,32 @@ public class Q17_SearchIn2DmatrxLVL2 {
     public boolean searchMatrix(int[][] matrix, int target) {
         int totalrow=matrix.length;
         int totalcol=matrix[0].length;
-        // n-> total element
 
-        int n = totalrow*totalcol;
-        // think like 1d array
-        int s=0;  
-        int e=n-1;
 
-        // binary serch
-        while(s<=e){
-            int mid=s+(e-s)/2;
+        int row=0;
+        int col=totalcol-1;
 
-            int rowindex=mid/totalcol;
-            int colindex=mid%totalcol;
-            
-            if(matrix[rowindex][colindex]==target){
+        while(row< totalrow && col>=0){
+
+            if(matrix[row][col]==target){
                 return true;
-
             }
 
-            // mid<target search in right half
-
-            else if(matrix[rowindex][colindex]<target){
-                s=mid+1;
+            else if (matrix[row][col]>target){
+                // target chota hai current value se 
+                // move to left
+                col--;
             }
 
             else{
-                e=mid-1;
+                // matrix[row][col]<target
+                // target bda hai moe to down
+                row++;
             }
+
         }
 
         return false;
-        
+  
     }
-    
 }
