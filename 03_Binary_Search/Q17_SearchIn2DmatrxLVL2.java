@@ -1,4 +1,4 @@
-public class Q17_BinarySearchIn2DmatrxLVL2 {
+public class Q17_SearchIn2DmatrxLVL2 {
     public boolean searchMatrix(int[][] matrix, int target) {
         int totalrow=matrix.length;
         int totalcol=matrix[0].length;
