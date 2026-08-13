@@ -62,7 +62,7 @@ static int rowwithMaximumOnes(int[][] mat) {
         if((onescount)!=0 && onescount>maxi){
             maxi=onescount;
         // and jis row ke liye ye max count one aya hai 
-        // uss row ki index ko one kardo
+        // uss row ki index ko update kardo
          maxrowwaliRowIndex=row;
 
         }
