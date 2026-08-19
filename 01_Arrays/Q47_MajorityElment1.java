@@ -1,4 +1,6 @@
 public class Q47_MajorityElment1 {
+    // optimal approach 
+    // moore's algo;
 
     static int majorityelement(int[]nums){
         int freq=0;

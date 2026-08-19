@@ -12,8 +12,8 @@ public class Q10_StringCompression {
             char currentchar=chars[readindex];
             int count =0; // is current char ka abhi count 0 hai 
 
-            // count kab tak karnahia 
-            // jab tak index vlaid hai and currnt cahr ==chars[readindex]hai 
+            // count kab tak karna hai 
+            // jab tak index vlaid hai and currnt char ==chars[readindex]hai 
 
             while(readindex<chars.length && currentchar==chars[readindex]){
                 readindex++;
@@ -23,7 +23,7 @@ public class Q10_StringCompression {
             // till now i have current count and 
             chars[writeindex]=currentchar; // abb char array me write index pe current char dal diya
             writeindex++;
-            // abb frequency dalni hai  means count
+            // abb   count dalni hai  
 
             if(count>1){
                 // count ko String me convert krna hai 
