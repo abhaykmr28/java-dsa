@@ -24,9 +24,9 @@ public class Q09_RemoveAdjcecentduplicates {
     public static void main(String[] args) {
         String s="abbaac";
 
-       String finalans= removeadjcentdupplicate(s);
+       String finalanswer= removeadjcentdupplicate(s);
 
-       System.out.println(finalans);
+       System.out.println(finalanswer);
     }
     
 }

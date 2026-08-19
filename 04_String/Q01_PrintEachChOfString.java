@@ -12,6 +12,7 @@ public class Q01_PrintEachChOfString {
     public static void main(String[] args) {
         String str="abhay@microsoft";
         printString(str);
+
     }
 
     

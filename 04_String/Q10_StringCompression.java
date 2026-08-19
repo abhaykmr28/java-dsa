@@ -28,7 +28,7 @@ public class Q10_StringCompression {
             if(count>1){
                 // count ko String me convert krna hai 
                 String countstr=String.valueOf(count);
-                // now string ko char arry me convert krne tavll kar leneg 
+                // now string ko char[] arry me convert krne tavll kar leneg 
                 for(char digit:countstr.toCharArray()){
                     chars[writeindex]=digit;
                     writeindex++;
